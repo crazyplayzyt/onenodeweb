@@ -6,15 +6,6 @@
   scroll-behavior: smooth;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
 
 .navbar {
   background: #131313;
@@ -286,11 +277,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .main__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  height: 90%;
+  margin: auto;
+  height: 100%;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -388,7 +379,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .main__img--card {
-  margin: 10px;
+  margin: 50px;
   height: 500px;
   width: 500px;
   border-radius: 4px;
@@ -506,14 +497,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .services__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
   grid-template-rows: 1fr;
 }
 
 .services__card {
-  margin: 10px;
-  height: 425px;
-  width: 300px;
+  margin: 10px ;
+  height: 425px auto;
+  width: 300px ;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
