@@ -506,13 +506,13 @@ html,body
 
 .services__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
   grid-template-rows: 1fr;
 }
 
 .services__card {
   margin: 10px ;
-  height: 425px ;
+  height: 425px auto ;
   width: 400px ;
   border-radius: 5px;
   display: flex;
