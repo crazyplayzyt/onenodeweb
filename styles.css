@@ -506,13 +506,13 @@ html,body
 
 .services__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
 .services__card {
   margin: 10px ;
-  height: 425px auto ;
+  height: 425px ;
   width: 400px ;
   border-radius: 5px;
   display: flex;
@@ -521,6 +521,7 @@ html,body
   color: #fff;
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   transition: 0.3s ease-in;
+  overflow-x:hidden;
 }
 
 .services__card:nth-child(2) {
