@@ -512,9 +512,9 @@ html,body
 
 .services__card {
   margin: 10px ;
-  height: 425px auto;
-  width: 300px ;
-  border-radius: 4px;
+  height: 425px auto ;
+  width: 400px ;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
