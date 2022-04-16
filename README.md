@@ -1,1 +1,2 @@
-Simple website created using HTML, CSS &amp; Javascript with smooth scroll effect For onenodes website! https://onenode.online/
+A fuctional website made for https://onenode.online/
+Free server hosting!
